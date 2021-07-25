@@ -3,8 +3,8 @@
         <ul class="nav navbar-nav flex-row">
             <li class="nav-item me-auto">
                 <a class="navbar-brand" href="../../../starter-kit/rtl/vertical-menu-template/">
-
-                    <h2 class="brand-text">Vuexy</h2>
+                    <img src="media/logo/logo.png" alt="" width="40"/>
+                    <h2 class="brand-text">Graphixar</h2>
                 </a></li>
             <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pe-0" data-bs-toggle="collapse"><i class="d-block d-xl-none text-primary toggle-icon font-medium-4" data-feather="x"></i><i class="d-none d-xl-block collapse-toggle-icon font-medium-4  text-primary" data-feather="disc" data-ticon="disc"></i></a></li>
         </ul>
