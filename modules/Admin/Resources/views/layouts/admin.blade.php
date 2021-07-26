@@ -10,7 +10,6 @@
     <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="Graphixar">
     <title>{{ config('app.name') }} | @yield('title', $page_title ?? '')</title>
-    <link rel="apple-touch-icon" href="/assets/images/ico/apple-icon-120.png">
     <link rel="shortcut icon" type="image/x-icon" href="media/logo/favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
 
@@ -29,35 +28,23 @@
 <body class="vertical-layout vertical-menu-modern  navbar-floating footer-static  " data-open="click" data-menu="vertical-menu-modern" data-col="">
 
 <!-- BEGIN: Header-->
-@include('partials.admin.base.header')
+@include('admin::partials.base.header')
 <!-- END: Header-->
 
 
 <!-- BEGIN: Main Menu-->
-@include('partials.admin.base.sidebar')
+@include('admin::partials.base.sidebar')
 <!-- END: Main Menu-->
 
 <!-- BEGIN: Content-->
-<div class="app-content content ">
-    <div class="content-overlay"></div>
-    <div class="header-navbar-shadow"></div>
-    <div class="content-wrapper container-xxl p-0">
-        <div class="content-body">
-            <!-- Page layout -->
-            <section id="dashboard-analytics">
-                @yield('content')
-            </section>
-            <!--/ Page layout -->
-        </div>
-    </div>
-</div>
+@include('admin::partials.base.content')
 <!-- END: Content-->
 
 <div class="sidenav-overlay"></div>
 <div class="drag-target"></div>
 
 <!-- BEGIN: Footer-->
-@include('partials.admin.base.footer')
+@include('admin::partials.base.footer')
 <!-- END: Footer-->
 
 

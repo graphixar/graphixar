@@ -165,6 +165,8 @@ return [
         /*
          * Package Service Providers...
          */
+        Modules\Admin\Providers\AdminServiceProvider::class,
+        Modules\Dashboard\Providers\DashboardServiceProvider::class,
 
         /*
          * Application Service Providers...
