@@ -167,6 +167,7 @@ return [
          */
         Modules\Admin\Providers\AdminServiceProvider::class,
         Modules\Dashboard\Providers\DashboardServiceProvider::class,
+        Modules\User\Providers\UserServiceProvider::class,
 
         /*
          * Application Service Providers...
